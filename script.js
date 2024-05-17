@@ -102,5 +102,6 @@ function checkUI() {
 itemForm.addEventListener('submit', addItem);
 itemList.addEventListener('click', removeItem);
 clearBtn.addEventListener('click', removeAll);
+filter.addEventListener('input', filterItems);
 
 checkUI();
